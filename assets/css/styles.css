@@ -105,7 +105,18 @@ button {
     transform: translateY(-300px) scaleX(10);
   }
 }
-
+@media screen and (max-width: 990px) {
+  .vapour span {
+    bottom: -100px;
+    min-width: 7px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .vapour span {
+    bottom: -50px;
+    min-width: 6px;
+  }
+}
 @media screen and (max-width: 580px) {
   .container .row {
     height: calc(100vh - 45px);
